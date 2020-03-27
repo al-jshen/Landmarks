@@ -16,6 +16,7 @@
 		4BCBD55B242EBC1D004EE72D /* LandmarksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCBD55A242EBC1D004EE72D /* LandmarksTests.swift */; };
 		4BCBD566242EBC1D004EE72D /* LandmarksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCBD565242EBC1D004EE72D /* LandmarksUITests.swift */; };
 		4BCBD574242EC354004EE72D /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCBD573242EC354004EE72D /* CircleImage.swift */; };
+		4BCBD576242EC448004EE72D /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCBD575242EC448004EE72D /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		4BCBD565242EBC1D004EE72D /* LandmarksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksUITests.swift; sourceTree = "<group>"; };
 		4BCBD567242EBC1D004EE72D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4BCBD573242EC354004EE72D /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		4BCBD575242EC448004EE72D /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				4BCBD547242EBC19004EE72D /* ContentView.swift */,
 				4BCBD549242EBC1D004EE72D /* Assets.xcassets */,
 				4BCBD573242EC354004EE72D /* CircleImage.swift */,
+				4BCBD575242EC448004EE72D /* MapView.swift */,
 				4BCBD54E242EBC1D004EE72D /* LaunchScreen.storyboard */,
 				4BCBD551242EBC1D004EE72D /* Info.plist */,
 				4BCBD54B242EBC1D004EE72D /* Preview Content */,
@@ -271,6 +274,7 @@
 			files = (
 				4BCBD544242EBC19004EE72D /* AppDelegate.swift in Sources */,
 				4BCBD574242EC354004EE72D /* CircleImage.swift in Sources */,
+				4BCBD576242EC448004EE72D /* MapView.swift in Sources */,
 				4BCBD546242EBC19004EE72D /* SceneDelegate.swift in Sources */,
 				4BCBD548242EBC19004EE72D /* ContentView.swift in Sources */,
 			);
