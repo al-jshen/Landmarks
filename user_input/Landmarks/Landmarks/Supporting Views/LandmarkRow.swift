@@ -17,6 +17,12 @@ struct LandmarkRow: View {
                 .frame(width: 50, height: 50)
             Text(landmark.name)
             Spacer()
+            
+            if landmark.isFavorite {
+                Image(systemName: "star.fill")
+                    .imageScale(.medium)
+                    .foregroundColor(.yellow)
+            }
         }
     }
 }
@@ -27,6 +33,6 @@ struct LandmarkRow_Previews: PreviewProvider {
             LandmarkRow(landmark: landmarkData[0])
             LandmarkRow(landmark: landmarkData[1])
         }
-        .previewLayout(.fixed(width: 300, height: 70))
+        .previewLayout(.sizeThatFits)
     }
 }
